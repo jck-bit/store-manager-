@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: font-family: 'Noto Serif', serif;
+}
+
+.container{
+	width: 100vh;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 7rem;
+	padding: 0.2rem
+
+}
+.img img{
+	width: 500px;
+
+}
+.login-container{
+	display: flex;
+    align-items: center;
+	text-align: center;
+}
+
+form{
+	width: 360px;
+}
+.avatar{
+	width:100px; 
+}
+form h2{
+	font-size: 2.9rem;
+	text-transform: uppercase;
+	margin: 15px 0;
+	color: #333;
+}
+.input-div{
+	display: grid;
+	margin: 25px 0;
+	padding:5px 0;
+	border-bottom: 2px solid #d9d9d9;
+}

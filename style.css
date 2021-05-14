@@ -1,11 +1,10 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url(images/f.jpg);
+	background-image: url(horizon.jpg);
 	-webkit-background-size:contain;
 	background-size: cover;
 	font-family: sans-serif;
-	color: black;
 }
 .wrapper{
 	width: 400px;
@@ -32,17 +31,16 @@ h1{
 .wrapper input{
 	width: 100%;
 	margin-bottom: 20px;
-	color: black;
 }
 
 .wrapper input[type=text], .wrapper input[type=password]{
 	border:0;
-	border-bottom: 1px solid ;
+	border-bottom: 1px solid #ddd;
 	background:transparent;
 	width: 100%;
 	outline: none;
 	opacity: 1;
-    color: black;
+
 }
 .wrapper input[type=submit]{
 	font-size: 18px;
@@ -53,15 +51,11 @@ h1{
 	background-color: transparent;
 	color: black;
 	text-align: center;
-	border:0;
 }
 .wrapper input[type=submit]:hover{
 	cursor: pointer;
 }
 
-.wrapper {
-
-}
 .wrapper a{
 	font-size: 14px;
 	text-decoration: none;

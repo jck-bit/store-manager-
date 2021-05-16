@@ -1,12 +1,15 @@
 *{
-	font-family: serif;
+	font-family:sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	background-image: url(images/image.jpg);
+}
 
 .container{
-	padding: 20px;
+	padding:70px 50px 70px 150px;
 }
 
 .container  h1{
@@ -30,6 +33,7 @@
 	border: 1px solid silver;
 	margin-bottom: 20px;
 	border-radius: 5px;
+	background: white;
 }
 
 .product:hover{

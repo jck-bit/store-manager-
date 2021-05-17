@@ -17,8 +17,7 @@ body{
 }
 
 .cart{
-	display: flex;
-
+	display:flex;
 }
 
 .products{
@@ -73,11 +72,12 @@ body{
 	border-radius: 5px;
 }
 
+
 .product-remove:hover{
 	background-color: white;
 	color: green;
 	font-weight: 600;
-	border: ipx solid green;
+	border: 1px solid green;
 }
 .product-quantity input{
 	width: 40px;

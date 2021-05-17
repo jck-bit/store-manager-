@@ -1,21 +1,24 @@
 *{
-	font-family: serif;
+	font-family:sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	background-image: url(images/image.jpg);
+}
 
 .container{
-	padding: 20px;
+	padding:70px 50px 70px 150px;
 }
 
 .container  h1{
 	padding: 20px;
+	text-decoration: underline;
 }
 
 .cart{
-	display: flex;
-
+	display:flex;
 }
 
 .products{
@@ -30,6 +33,7 @@
 	border: 1px solid silver;
 	margin-bottom: 20px;
 	border-radius: 5px;
+	background: white;
 }
 
 .product:hover{
@@ -63,17 +67,18 @@
 	border: 20px;
 	right: 20px;
 	padding: 10px 25px;
-	background-color: green;
+	background-color: orange;
 	color: white;
 	cursor:pointer;
 	border-radius: 5px;
 }
 
+
 .product-remove:hover{
 	background-color: white;
-	color: green;
+	color: orange;
 	font-weight: 600;
-	border: ipx solid green;
+	border: 1px solid silver;
 }
 .product-quantity input{
 	width: 40px;

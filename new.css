@@ -1,64 +1,54 @@
-{
-	box-sizing: border-box;
-}
 
-body{
-	margin: 0;
-	height: 100vh;
-	width: 100vh;
-	overflow: hidden;
-	font-family: sans-serif;
-	font-weight: 700;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: black;
-	background-image: url(images/image.jpg);
-}
 
-.login-div{
+
+.wrapper{
 	width: 400px;
-	height: 470px;
-	padding: 60px 35px 35px 35px;
-	border-radius: 40px;
-	background:  transparent;
-	box-shadow: 13px 13px 20px,
-	            -13px -13px 20px ;
-
+	height: 420px;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	border-radius: 10px;
+	padding: 60px 30px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow:  8px 8px 50px #000;
+	background-color: 
 }
-.title{
+.wrapper h1{
 	text-align: center;
-	font-size: 28px;
-	padding-top: 24px;
-	letter-spacing: 0.5px;
-}
-.fields{
-	width: 100%;
-	padding: 75px 5px 5px 5px;
-}
-.fields input{
-	border:none;
-	outline:none;
-	background: none;
-	font-size: 18px;
-	color: black;
-	padding: 20px 10px 20px 5px;
 }
 
-.username, .password{
-	margin-bottom: 30px;
-	border-radius: 25px;
-	box-shadow: 13px 13px 20px;
+.wrapper input{
+	padding-left: 20px;
+	width: 70%;
+	margin-bottom:30px;
 }
-.signin-button{
+.wrapper input[type=text], .wrapper input[type=password]{
+	border:0;
+	border-bottom: 1px solid #ddd;
+	background:transparent;
+	width: 70%;
 	outline: none;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-	height: 60px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    background: transparent;
-    box-shadow: 13px 13px 20px;
+	opacity: 1;
+    margin-left: 30px;
 }
+
+.wrapper button{
+	margin-left: 90px;
+	padding: 5px 50px ;
+	border-radius: 5px;
+	
+}
+.wrapper button a{
+	text-align: center;
+}
+
+
+.wrapper button:hover{
+	background-color: black;
+	color: white;
+	transition-duration: 1s;
+	cursor: pointer;
+}
+

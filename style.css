@@ -1,50 +1,60 @@
 body{
 	margin:0;
 	padding: 0;
-	background-color: black;
 	font-family: sans-serif;
-	background-image: url(images/image.jpg);
 }
 
-.container{
-	max-width: 1200px;
-	margin: auto;
+.wrapper{
+	width: 400px;
+	height: 420px;
+	color: #000;
+	top: 50%;
+	left: 50%;
 	border-radius: 10px;
+	padding: 60px 30px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow:  8px 8px 50px #000;
+	background-color: 
 }
-nav{
-	text-align: right;
-}
-
-
-nav a{
-	display: inline-block;
-	margin-right: 20px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+.wrapper h1{
+	text-align: center;
 }
 
-.banner-area{
-	width: 100%;
-	height: 100vh;
-	border-radius: 10px;
-	background-image: url(images/f.jpg);
-	background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+.wrapper input{
+	padding-left: 20px;
+	width: 70%;
+	margin-bottom:30px;
+}
+.wrapper input[type=text], .wrapper input[type=password]{
+	border:0;
+	border-bottom: 1px solid #ddd;
+	background:transparent;
+	width: 70%;
+	outline: none;
+	opacity: 1;
+    margin-left: 30px;
 }
 
-nav a:hover{
+.wrapper input[type=submit]{
+	font-size: 18px;
+	outline:none;
+	border: none;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	background-color: transparent;
 	color: black;
+	box-shadow:13px 13px 20px;
+    margin-left: 40px;
+}
+.wrapper input[type=submit]:hover{
 	cursor: pointer;
 }
 
-.banner-area h2{
-	font-family: sans-serif;
-	font-size: 65px;
-	margin: 0 0 25px;
+.bottom-text {
+	text-align: center;
+	text-decoration-color: black;
 }

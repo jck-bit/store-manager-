@@ -3,14 +3,16 @@
 	padding: 0;
     box-sizing: border-box;
 }
+
+body{
+	height: 100vh;
+	display: grid;
+	background-color: lightgray;
+}
 .container{
 	text-align: center;
 	margin-left: 150px;
 	margin-top: 100px;
-}
-body{
-	height: 100vh;
-	display: grid;
 }
 table{
 	width: 1200px;

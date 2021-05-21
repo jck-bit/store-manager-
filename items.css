@@ -12,6 +12,17 @@ body{
 	padding-left: 25px;
 	padding-right: 25px;
 }
+
+.search{
+ margin-top:10px;
+ padding-left: 40%;
+
+}
+
+.search input{
+	align-items: center;
+    margin-top: 30px;
+}
 .row{
 	display: flex;
 	align-items: center;
@@ -23,7 +34,7 @@ body{
 
 }
 .col-3{
-	flex-basis: 19%;
+	flex-basis: 15%;
 	margin-bottom: 20px;
 	margin-right: 20px;
 	border: 1px solid silver;
@@ -42,9 +53,14 @@ body{
 .col-3 img{
 	width: 100%;
 }
+
+h4,p{
+	padding-left: 14px;
+}
+
 .product-remove{
-	padding: 5px 25px;
-	background-color: green;
+	padding: 4px 20px;
+	background-color: #468284;
 	color: white;
 	cursor:pointer;
 	border-radius: 5px;

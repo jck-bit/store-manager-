@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: grid;
+	background-color: lightgray;
+}
+
+.container{
+   padding-left:50px;
+}
+table{
+	width: 1200px;
+
+}
+
+
+table,td,th{
+	padding: 1px 3px 15px 25px;
+	border-top: 1px solid silver;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+td{
+	font-size: 18px;
+}
+
+
+tr:nth-child(odd){
+	background-color: lightblue;
+}
+
+tr:nth-child(even){
+	background-color: lightgray;
+}
+
+

@@ -3,21 +3,22 @@
 	padding: 0;
     box-sizing: border-box;
 }
-.container{
-	text-align: center;
-	margin-left: 150px;
-	margin-top: 100px;
-}
+
 body{
 	height: 100vh;
 	display: grid;
+}
+
+.container{
+   padding-left:50px;
 }
 table{
 	width: 1200px;
 
 }
 
-table,td, th{
+
+table,td,th{
 	padding: 1px 3px 15px 25px;
 	border-top: 1px solid silver;
 	border-collapse: collapse;
@@ -28,24 +29,13 @@ td{
 	font-size: 18px;
 }
 
-th{
-	background-color: #468284;
-}
 
 tr:nth-child(odd){
 	background-color: lightblue;
 }
-tr:nth-child(odd):hover{
-	cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 300ms ease-in;
-}
+
 tr:nth-child(even){
 	background-color: lightgray;
 }
-tr:nth-child(even):hover{
-	cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 300ms ease-in;
-}
+
 

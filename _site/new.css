@@ -4,6 +4,7 @@ body{
 	background-color: lightgray;
 }
 
+
 .wrapper{
 	width: 400px;
 	height: 420px;
@@ -16,21 +17,18 @@ body{
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
 	box-shadow:  8px 8px 50px #000;
-	background-color:transparent;
+	background-color: 
+}
+.wrapper h1{
+	text-align: center;
 }
 
-.wrapper h1{
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 20px;
-}
 .wrapper input{
 	padding-left: 20px;
 	width: 70%;
 	margin-bottom:30px;
 }
-.wrapper input[type=username], .wrapper input[type=password]{
+.wrapper input[type=text], .wrapper input[type=password]{
 	border:0;
 	border-bottom: 1px solid #ddd;
 	background:transparent;
@@ -46,6 +44,10 @@ body{
 	border-radius: 5px;
 	
 }
+.wrapper button a{
+	text-align: center;
+}
+
 
 .wrapper button:hover{
 	background-color: black;

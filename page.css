@@ -3,16 +3,30 @@ body{
     padding: 0;
     background-color: lightgray;
 }
+
 .container{
     width: 1000px;
     height: fit-content;
-    padding-left: 150px;
+    padding-left: 200px;
     align-items: center;
 }
+.btn{	
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px 16px;
+}
+.btn{
+    border-radius: 50px;
+}
 
+.btn:hover{
+   background-color:gray;  
+   cursor: pointer;  
+}
 img{
     width: 600px;
-    margin-top: 50px;
+    margin-top: 180px;
 }
 .info{
     float: right;

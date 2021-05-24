@@ -8,13 +8,29 @@ body{
     padding-left: 60px;
 }
 
-.img{
-    width: 400px;
+img{
+    width: 600px;
     margin-top: 50px;
 }
 .info{
     float: right;
-    padding-top: 350px;
-    padding-left: 50px;
+    padding-top:250px;
+    padding-left: 150px;
 }
 
+.info a{
+    text-decoration: none;
+}
+.info p{
+    border: 1px silver solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: .3s ease background-color;
+    padding:1.6rem 1.6rem;	
+
+}
+.info p:hover{
+background-color: black;
+color: white;
+}

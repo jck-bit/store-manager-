@@ -11,7 +11,13 @@ body{
 }
 
 .container{
+	padding-top: 100px;
    padding-left:50px;
+}
+
+.container h1{
+	padding-bottom: 20px;
+	padding-left: 60px;
 }
 table{
 	width: 1200px;

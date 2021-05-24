@@ -5,6 +5,21 @@ body{
 	background-color: lightgray;
 
 }
+.btn{	
+    background-color: gray;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px 16px;
+}
+.btn{
+    border-radius: 50px;
+}
+
+.btn:hover{
+   background-color:gray;  
+   cursor: pointer;  
+}
+
 
 .container{
 	font-weight: bold;
@@ -68,7 +83,7 @@ h4,p{
 	margin: 15px;
 }
 .product-remove:hover{
-		background-color: white;
+		background-color:gray;
 		color: black;
 }
 
@@ -77,4 +92,4 @@ h4,p{
 	text-decoration-line: underline;
 	text-decoration-style: solid;
     text-decoration-color: silver;
-  
+}

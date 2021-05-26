@@ -9,6 +9,21 @@ body{
 	display: grid;
 	background-color: lightgray;
 }
+.btn{	
+    background-color: gray;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px 16px;
+}
+.btn{
+    border-radius: 50px;
+}
+
+.btn:hover{
+   background-color:gray;  
+   cursor: pointer; 
+}
+
 .container{
 	text-align: center;
 	margin-left: 150px;

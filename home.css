@@ -29,21 +29,22 @@ img{
     margin-top: auto;
 }
 .info{
-    float: right;
     margin-top: 116px;
+    width: 200px;
+    
 }
 
 .info a{
     text-decoration: none;
 }
 .info p{
+    box-shadow: 8px 0px 8px;
     border: 1px silver solid;
     margin-bottom: 20px;
     border-radius: 5px;
     background-color: lightblue;
-    transition: .3s ease background-color;
-    padding:1.6rem 1.6rem;	
-
+    transition: .3s ease background-color;	
+    padding: 1.6rem;
 }
 .info p:hover{
 background-color:gray;

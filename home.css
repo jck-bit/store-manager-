@@ -18,34 +18,40 @@ body{
    cursor: pointer;  
 }
 .container{
-    width: 800px;
-    height: fit-content;
-    padding-left: 150px;
+    padding-left: 400px;
     align-items: center;
+	justify-content: center;
 }
 
-img{
-    width: 600px;
-    margin-top: auto;
+td,th{
+    padding: 20px;
+    height: 100px;
 }
 .info{
     margin-top: 116px;
     width: 200px;
-    
+}
+p{
+    text-align: center;
+}
+
+.p{
+    padding-top: 50px;
 }
 
 .info a{
-    text-decoration: none;
+    text-decoration: none; 
 }
 .info p{
-    box-shadow: 8px 0px 8px;
+    box-shadow: 8px 0px 8px;  
     border: 1px silver solid;
-    margin-bottom: 20px;
     border-radius: 5px;
     background-color: lightblue;
     transition: .3s ease background-color;	
-    padding: 1.6rem;
+    padding:1rem 5rem;
+
 }
+
 .info p:hover{
 background-color:gray;
 color: white;

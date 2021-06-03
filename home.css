@@ -1,4 +1,6 @@
 body{
+    width:800px;
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: lightgray;
@@ -18,18 +20,24 @@ body{
    cursor: pointer;  
 }
 .container{
+    width: 90%;
+    margin: auto;
+    min-width: 1000px;
+    height: auto;
     padding-left: 400px;
     align-items: center;
 	justify-content: center;
 }
 
 td,th{
-    padding: 20px;
+    padding-bottom: 5px;
+    padding-left: 15px;
     height: 100px;
 }
 .info{
     margin-top: 116px;
     width: 200px;
+    float: right;
 }
 p{
     text-align: center;
@@ -55,4 +63,9 @@ p{
 .info p:hover{
 background-color:gray;
 color: white;
+}
+
+.container img{
+    width: 600px;
+    margin-top: 100px;
 }

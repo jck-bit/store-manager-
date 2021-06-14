@@ -1,4 +1,5 @@
 body{
+    width: 750px;
     margin: 0;
     padding: 0;
     background-color: lightgray;
@@ -18,6 +19,7 @@ body{
    cursor: pointer;  
 }
 .container{
+    width: 700px;
     margin-left:10px;
     margin: auto;
     min-width: 1000px;
@@ -34,8 +36,8 @@ td,th{
     margin-top: 116px;
     width: 200px;
     float: right;
-    margin-right: 40px;
 }
+
 p{
     text-align: center;
 }
@@ -63,6 +65,7 @@ color: white;
 }
 
 .container img{
-    width: 600px;
+    margin-left: 60px;
+    width: 500px;
     margin-top: 70px;
 }

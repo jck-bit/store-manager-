@@ -1,6 +1,4 @@
 body{
-    width:900px;
-    height: 100%;
     margin: 0;
     padding: 0;
     background-color: lightgray;
@@ -21,10 +19,8 @@ body{
 }
 .container{
     margin-left:10px;
-    width: 800px;
     margin: auto;
     min-width: 1000px;
-    height: auto;
     align-items: center;
 	justify-content: center;
 }

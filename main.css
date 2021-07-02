@@ -30,7 +30,7 @@ body{
 }
 .wrapper input[type=text], .wrapper input[type=password]{
 	border:0;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid rgb(19, 19, 34);
 	background:transparent;
 	width: 70%;
 	outline: none;

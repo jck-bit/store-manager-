@@ -45,6 +45,9 @@ img{
     padding:1.6rem 1.6rem;	
 
 }
+p{
+    color: black;
+}
 .info p:hover{
 background-color:gray;
 color: white;
